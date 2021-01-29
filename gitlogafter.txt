@@ -1,0 +1,29 @@
+commit 591751a9c245eebb0f6f8337ebd5153a542bc6aa
+Author: Mahlet Amare <mamare@madisoncollege.edu>
+Date:   Thu Jan 28 22:48:31 2021 -0600
+
+    Initial commit of GitHub exercise
+
+commit 65816dd065e6491e698d151b6aefe7f412f71e11
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Jan 27 04:40:18 2021 +0000
+
+    Setting up GitHub Classroom Feedback
+
+commit 3794da62d5d9a20aab7a0c90a232349870ed3609
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Jan 27 04:40:17 2021 +0000
+
+    Update GitHub Classroom Feedback
+
+commit 61ac2883b836031da8114c6b9e1c735df4cb7e0a
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Jan 27 04:40:16 2021 +0000
+
+    Setting up GitHub Classroom Feedback
+
+commit 66ccb9baaacc69192d263e3bf59d7a1a13813f90
+Author: github-classroom[bot] <66690702+github-classroom[bot]@users.noreply.github.com>
+Date:   Wed Jan 27 04:40:15 2021 +0000
+
+    GitHub Classroom Feedback
