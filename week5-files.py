@@ -26,20 +26,19 @@ hFile.close()
 print("The len() function counts 53 list")
 
 #2c add a print statement to your script to describe when would you use this technique list 
-print("I would use this technique in order to read the list using readlines to output the content of the file as a list")
+print("I would use this technique in order to read the list using readlines to output the content of the file as a list, by using readlines() to read the list and using len() function to get the number of list ")
 
 #3a the len() function will not work here. Add code that will calculate the total length of the file and print it out to the screen 
 count = 0
-with open("/etc/passwd", "rb") as hFile:
-  line = hFile.read(10)
-  while line:
-   lineInfo = f"{count:03d}) [Length: {len(line):03d}] [Index:{hFile.tell():04d}] {line}"
-   print(lineInfo.strip())
-   count += 1
-   line = hFile.readline()
-   
 
-print("I would use this technique in order to read a file one line at a time and also count the number of characters in the content")
+with open("/etc/passwd", "r") as hFile:
+  linefiletext = hFile.read() 
+  while linefiletext:
+   print(linefiletext)
+   count += 1
+   print(len(linefiletext))
+   break
+print("I would use this technique in order to read a file one line at a time and also count the number of characters in the content using while loop, the loop iterates every line and increaments and print len() prints the total number of the characters and when reading file is done break will stop the loop")
 
 #3b add a print statement to your script to describe when would you use this technique 
 
