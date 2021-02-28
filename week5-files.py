@@ -5,7 +5,7 @@ hFile = open("/etc/passwd", "r")
 strfiletext = hFile.read()
 print(strfiletext)
 print(type(strfiletext))
-print(len(strfiletext))
+print("Total length of the characters: ", len(strfiletext))
 hFile.close()
 
 #1b Add a print statement to your script to indicate what the len() function counts str 
@@ -19,7 +19,7 @@ hFile = open("/etc/passwd", "r")
 listfiletext = hFile.readlines()
 print(listfiletext)
 print(type(listfiletext))
-print(len(listfiletext)) 
+print("Total number of list: ", len(listfiletext)) 
 hFile.close()
 
 #2b add a print statement to your script to indicate what the len() function  counts list 
@@ -36,7 +36,7 @@ with open("/etc/passwd", "r") as hFile:
   while linefiletext:
    print(linefiletext)
    count += 1
-   print(len(linefiletext))
+   print("Total length of characters: ", len(linefiletext))
    break
 print("I would use this technique in order to read a file one line at a time and also count the number of characters in the content using while loop, the loop iterates every line and increaments and print len() prints the total number of the characters and when reading file is done break will stop the loop")
 
