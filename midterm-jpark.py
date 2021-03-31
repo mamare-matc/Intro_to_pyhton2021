@@ -18,6 +18,8 @@ counter = 0
 while(white_rabbit_object == 0 and counter < 3):
   input_user= input("please enter the user name: ")
   input_password = input("please enter the password: ")
+
+  print(f"you didn't say the magic word. " + str(counter + 1))
   counter += 1
   
   if counter == 3:
