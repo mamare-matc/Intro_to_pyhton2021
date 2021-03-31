@@ -21,7 +21,7 @@ while(white_rabbit_object == 0 and counter < 3):
   counter += 1
   
   if counter == 3:
-     print(f"You dind't say the magic word. {counter}")
+     print(f"You dind't say the magic word.\n" * 25)
      break
   
   if (input_user == password_database.get("username")) and \
