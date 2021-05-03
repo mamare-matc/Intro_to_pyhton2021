@@ -3,8 +3,8 @@ import socket
 
 myServerSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-myIp = '192.168.1.246'
-myPort = 443
+myIp = '172.20.1.1'
+myPort = 5000
 myServerInfo = (myIp, myPort)
 
 print({myIp})

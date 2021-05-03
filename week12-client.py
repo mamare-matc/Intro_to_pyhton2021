@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 import socket
 
-serverAddress = '192.168.1.246'
-serverPort = 443
+serverAddress = '172.20.1.1'
+serverPort = 5000
 myServerInfo = (serverAddress, serverPort)
 dataFormUser = ''
 
@@ -11,7 +11,7 @@ clientSocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 clientSocket.connect(myServerInfo)
 
 while dataFormUser != 'EOF':
-   dataFormUser = input('what should we send to the server')
+   dataFormUser = input('Hello Class')
    dataToSend = dataFormUser.encode()
    print(f'sending {dataToSend}')
    clientSocket.send(dataToSend)
@@ -20,3 +20,4 @@ while dataFormUser != 'EOF':
    
 print(f'closing the connection to {serverAddress}:{serverPort}')
 clientSocket.close()
+
