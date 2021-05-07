@@ -16,7 +16,7 @@ myDict = json.loads(json_raw.text)
     
 #for each key in  the dict print key and value
 for key in myDict.keys():
-	print(f"{key: <10}:{myDict[key]: <10}")
+	print(f"{key :} : { myDict[key]:}")
 
 
 
