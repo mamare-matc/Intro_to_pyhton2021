@@ -81,11 +81,11 @@ def socket_client(url):
         
         try:
             C_SOCK.connect((MYHOST, MYPORT))
-            RCV_DATA = C_SOCK.recv(1024)
+            RCV_DATA = C_SOCK.recv(1024).decode("utf-8")
             #print(f"connection state: {MYPORT}:: Port Open")
             if MYPORT == "port open":
-                C_SOCK.send(bytearray(snd_data, 'utf8'))
-                #print(RCV_DATA.decode())
+                C_SOCK.send(snd_data)
+                
             return RCV_DATA
             C_SOCK.close()
         except socket.error as e:
